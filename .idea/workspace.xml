@@ -4,10 +4,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645b898e-3daa-468c-9284-331473e59cd0" name="Changes" comment="Add event handling">
-      <change afterPath="$PROJECT_DIR$/Sample/Ex1_functions.py" afterDir="false" />
+    <list default="true" id="645b898e-3daa-468c-9284-331473e59cd0" name="Changes" comment="Add and function for the complete button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "master",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +106,7 @@
       <workItem from="1783179427865" duration="25205000" />
       <workItem from="1783326276677" duration="1509000" />
       <workItem from="1783330857114" duration="6291000" />
-      <workItem from="1783409887820" duration="20612000" />
+      <workItem from="1783409887820" duration="23762000" />
     </task>
     <task id="LOCAL-00001" summary="testgithubconnection">
       <option name="closed" value="true" />
@@ -157,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783430901277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update function of the meter conversion">
+      <option name="closed" value="true" />
+      <created>1783436741598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436741598</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add and function for the complete button">
+      <option name="closed" value="true" />
+      <created>1783439722784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1783439722784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +196,9 @@
     <MESSAGE value="Improve readability" />
     <MESSAGE value="Create basic GUI without actions" />
     <MESSAGE value="Add event handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add event handling" />
+    <MESSAGE value="update function of the meter conversion" />
+    <MESSAGE value="Add and function for the complete button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and function for the complete button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,7 +214,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectOne$test.coverage" NAME="test Coverage Results" MODIFIED="1783090494913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectOne$listComprehension.coverage" NAME="listComprehension Coverage Results" MODIFIED="1783231868604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjectOne$gui.coverage" NAME="gui Coverage Results" MODIFIED="1783430786886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectOne$gui.coverage" NAME="gui Coverage Results" MODIFIED="1783440263935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectOne$Ex1.coverage" NAME="Ex1 Coverage Results" MODIFIED="1783436537322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/ProjectOne$main.coverage" NAME="main Coverage Results" MODIFIED="1783350498299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
