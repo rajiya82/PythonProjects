@@ -1,5 +1,7 @@
-Drink 
+swim
 play badminton
 walk 
-sex 
-play 
+sleep
+play
+add
+visit
