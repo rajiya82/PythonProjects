@@ -1,23 +1,11 @@
 from typing import List
+from datetime import datetime
 
-def get_todos(filepath = "todos.txt"):
-    with open(filepath,"r") as file:
-        local_todos = file.readlines()
-        return local_todos
-
-def put_todos(local_todos, filepath = "todos.txt"):
-    with open(filepath,"w") as file:
-        file.writelines(local_todos)
-        return local_todos
-
-def update_todos(completed_idx, local_todos, filepath = "todos.txt"):
-    with open(filepath, "w") as file:
-        local_todos.pop(completed_idx)
-        file.writelines(local_todos)
-        return True
+from operations import get_todos, put_todos, update_todos
 
 def main():
     while True:
+        print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
         what_to_do = input("What do you want to do? (Please enter only add/edit/show/exit)")
         what_to_do = what_to_do.strip()
 
